@@ -1,0 +1,95 @@
+:root {
+  --m3-body-small-font-family: "Roboto", Helvetica;
+  --m3-body-small-font-weight: 400;
+  --m3-body-small-font-size: 12px;
+  --m3-body-small-letter-spacing: 0.4000000059604645px;
+  --m3-body-small-line-height: 16px;
+  --m3-body-small-font-style: normal;
+  --m3-body-large-font-family: "Roboto", Helvetica;
+  --m3-body-large-font-weight: 400;
+  --m3-body-large-font-size: 16px;
+  --m3-body-large-letter-spacing: 0.5px;
+  --m3-body-large-line-height: 24px;
+  --m3-body-large-font-style: normal;
+  --m3-schemes-on-surface-variant: rgba(73, 69, 79, 1);
+  --m3-schemes-on-surface: rgba(29, 27, 32, 1);
+  --m3-schemes-outline-variant: rgba(202, 196, 208, 1);
+  --m3-state-layers-on-surface-variant-opacity-12: rgba(73, 69, 79, 0.12);
+  --m3-state-layers-on-surface-variant-opacity-08: rgba(73, 69, 79, 0.08);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-m3-mode="light">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-m3-mode="light"] {
+  --m3-schemes-on-surface-variant: rgba(73, 69, 79, 1);
+  --m3-schemes-on-surface: rgba(29, 27, 32, 1);
+  --m3-schemes-outline-variant: rgba(202, 196, 208, 1);
+  --m3-state-layers-on-surface-variant-opacity-12: rgba(73, 69, 79, 0.12);
+  --m3-state-layers-on-surface-variant-opacity-08: rgba(73, 69, 79, 0.08);
+}
+
+[data-m3-mode="light-high-contrast"] {
+  --m3-schemes-on-surface-variant: rgba(37, 35, 43, 1);
+  --m3-schemes-on-surface: rgba(0, 0, 0, 1);
+  --m3-schemes-outline-variant: rgba(69, 65, 74, 1);
+  --m3-state-layers-on-surface-variant-opacity-12: rgba(37, 35, 43, 0.12);
+  --m3-state-layers-on-surface-variant-opacity-08: rgba(37, 35, 43, 0.08);
+}
+
+[data-m3-mode="light-medium-contrast"] {
+  --m3-schemes-on-surface-variant: rgba(69, 65, 74, 1);
+  --m3-schemes-on-surface: rgba(29, 27, 32, 1);
+  --m3-schemes-outline-variant: rgba(125, 121, 131, 1);
+  --m3-state-layers-on-surface-variant-opacity-12: rgba(69, 65, 74, 0.12);
+  --m3-state-layers-on-surface-variant-opacity-08: rgba(69, 65, 74, 0.08);
+}
+
+[data-m3-mode="dark"] {
+  --m3-schemes-on-surface-variant: rgba(202, 196, 208, 1);
+  --m3-schemes-on-surface: rgba(230, 224, 233, 1);
+  --m3-schemes-outline-variant: rgba(73, 69, 79, 1);
+  --m3-state-layers-on-surface-variant-opacity-12: rgba(202, 196, 208, 0.12);
+  --m3-state-layers-on-surface-variant-opacity-08: rgba(202, 196, 208, 0.08);
+}
+
+[data-m3-mode="dark-high-contrast"] {
+  --m3-schemes-on-surface-variant: rgba(255, 249, 255, 1);
+  --m3-schemes-on-surface: rgba(255, 255, 255, 1);
+  --m3-schemes-outline-variant: rgba(206, 200, 212, 1);
+  --m3-state-layers-on-surface-variant-opacity-12: rgba(255, 249, 255, 0.12);
+  --m3-state-layers-on-surface-variant-opacity-08: rgba(255, 249, 255, 0.08);
+}
+
+[data-m3-mode="dark-medium-contrast"] {
+  --m3-schemes-on-surface-variant: rgba(206, 200, 212, 1);
+  --m3-schemes-on-surface: rgba(255, 249, 255, 1);
+  --m3-schemes-outline-variant: rgba(134, 129, 139, 1);
+  --m3-state-layers-on-surface-variant-opacity-12: rgba(206, 200, 212, 0.12);
+  --m3-state-layers-on-surface-variant-opacity-08: rgba(206, 200, 212, 0.08);
+}
+
+[data-m3-mode="monochrome-light"] {
+  --m3-schemes-on-surface-variant: rgba(71, 71, 71, 1);
+  --m3-schemes-on-surface: rgba(27, 27, 27, 1);
+  --m3-schemes-outline-variant: rgba(198, 198, 198, 1);
+  --m3-state-layers-on-surface-variant-opacity-12: rgba(71, 71, 71, 0.12);
+  --m3-state-layers-on-surface-variant-opacity-08: rgba(71, 71, 71, 0.08);
+}
+
+[data-m3-mode="monochrome-dark"] {
+  --m3-schemes-on-surface-variant: rgba(198, 198, 198, 1);
+  --m3-schemes-on-surface: rgba(226, 226, 226, 1);
+  --m3-schemes-outline-variant: rgba(71, 71, 71, 1);
+  --m3-state-layers-on-surface-variant-opacity-12: rgba(198, 198, 198, 0.12);
+  --m3-state-layers-on-surface-variant-opacity-08: rgba(198, 198, 198, 0.08);
+}
